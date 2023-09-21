@@ -14,8 +14,8 @@ const Cita = ({item, eliminarPaciente}) => {
         <Text style={styles.label}>{item.paciente}</Text>
       </View>
       <View>
-        <Text style={styles.label}>Propetario:</Text>
-        <Text style={styles.label}>{item.propetario}</Text>
+        <Text style={styles.label}>Propietario:</Text>
+        <Text style={styles.label}>{item.propietario}</Text>
       </View>
       <View>
         <Text style={styles.label}>Sintomas:</Text>

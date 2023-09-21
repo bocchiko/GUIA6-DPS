@@ -141,7 +141,7 @@ const Formulario = ({citas, setCitas, guardarMostrarForm, guardarCitasStorage}) 
             <View>
                 <Text style={styles.label}>Sintomas:</Text>
                 <TextInput style={styles.input}
-                            onChangeText={texto => guardarTelefono(texto)}/>
+                            onChangeText={texto => guardarSintomas(texto)}/>
             </View>
 
             <View>
